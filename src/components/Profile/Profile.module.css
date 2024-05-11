@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 10px;
   width: 300px;
   margin: 0 auto;
@@ -42,16 +42,19 @@
 }
 .profileList {
   display: flex;
+  border: 1px solid #888;
+  border-radius: 0 0 10px 10px;
 }
 
 .profileListItem {
+  border: 1px solid #888;
+  background-color: #bebebe;
 }
 
 span {
   display: block;
   font-size: 16px;
-  border: 2px solid #888;
-  width: 100px;
+  width: 96px;
 }
 
 span:first-child {
