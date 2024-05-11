@@ -1,0 +1,27 @@
+.friendListItem {
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.friendListItem img {
+  padding-top: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friendListItem p {
+  color: black;
+  font-size: large;
+  margin: 0;
+}
+
+.friendListItem .online {
+  color: green;
+}
+
+.friendListItem .offline {
+  color: red;
+}
